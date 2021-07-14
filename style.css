@@ -5,8 +5,8 @@
 
 a {
     color: #fff;
-    
-    transition: 0.3s;
+    text-decoration: none;
+    transition: 0.3s:
 }
 
 a:hover {
@@ -14,7 +14,7 @@ a:hover {
 } 
 
 li::marker {
-    color: #333;
+    
 }
 
 .logo {
@@ -28,4 +28,22 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+}
+
+main {
+    background: url("unsplash.jpg")no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
 }
